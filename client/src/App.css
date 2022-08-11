@@ -1,0 +1,27 @@
+@import '~antd/dist/antd.min.css';
+
+.App {
+  height: 100%;
+}
+
+.ant-page-header {
+  padding: 0px 0px 16px 16px;
+}
+
+.ant-table {
+  padding: 0px 0px 16px 0px;
+  width: 100%;
+}
+
+.ant-pagination {
+  padding-right: 16px;
+}
+
+.capitalized-input {
+  text-transform: capitalize;
+}
+
+.container {
+  padding-right: 1%;
+  padding-left: 1%;
+}

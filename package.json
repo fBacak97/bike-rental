@@ -1,0 +1,14 @@
+{
+  "name": "bike-rental",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Furkan Bacak <fbacak97@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.2.2"
+  },
+  "scripts": {
+    "prod": "yarn --cwd client install && yarn --cwd client run build && yarn --cwd server run start",
+    "dev": "concurrently \"yarn --cwd server run dev\" \"yarn --cwd client start\""
+  }
+}
